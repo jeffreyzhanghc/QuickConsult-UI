@@ -54,7 +54,7 @@ export default function SessionChat() {
 
     const setupWebSocket = () => {
       const wsProtocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
-      const wsUrl = `${wsProtocol}://localhost:8000/api/v1/sessions/ws/${sessionId}`;
+      const wsUrl = `${wsProtocol}://king-prawn-app-df8b7.ondigitalocean.app/API/api/v1/sessions/ws/${sessionId}`;
       console.log('Initializing WebSocket connection to:', wsUrl);
 
       try {
