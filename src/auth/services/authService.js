@@ -1,7 +1,7 @@
 // src/auth/services/authService.js
 import axios from 'axios';
 
-const API_URL = 'https://king-prawn-app-df8b7.ondigitalocean.app/api/v1';
+const API_URL = 'https://king-prawn-app-df8b7.ondigitalocean.app/API/api/v1';
 
 class AuthService {
   constructor() {
