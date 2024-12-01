@@ -1,5 +1,4 @@
 {
-  "proxy": "https://stingray-app-hru5d.ondigitalocean.app",
   "name": "ui",
   "version": "0.1.0",
   "private": true,
