@@ -1,7 +1,7 @@
 // src/auth/services/authService.js
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/v1';
+const API_URL = 'https://king-prawn-app-df8b7.ondigitalocean.app/api/v1';
 
 class AuthService {
   constructor() {
